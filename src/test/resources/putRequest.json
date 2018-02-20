@@ -1,0 +1,40 @@
+{
+    "Records": [
+        {
+            "awsRegion": "us-east-1",
+            "eventName": "ObjectCreate:Put",
+            "eventSource": "aws:s3",
+            "eventTime": "2018-02-20T17:40:30.328Z",
+            "eventVersion": "2.0",
+            "requestParameters": {
+                "sourceIPAddress": "140.234.253.9"
+            },
+            "responseElements": {
+                "x-amz-id-2": "WHwBdXYo+hOPF/zr7TJXv8P2R6oN/Xt/S9BZFqqjJ0/8l/H1qGyzY6BXoSggII6K1uilYxdR56U=",
+                "x-amz-request-id": "6620A4F5E385F381"
+            },
+            "s3": {
+                "configurationId": "b345367d-fdd9-40aa-8508-09e21a8ab54b",
+                "bucket": {
+                    "name": "s3txn-nextgen-nvirginia-deliverydevqa",
+                    "ownerIdentity": {
+                        "principalId": "A1D9SDVAX3RDAE"
+                    },
+                    "arn": "arn:aws:s3:::s3txn-nextgen-nvirginia-deliverydevqa"
+                },
+                "object": {
+                    "key": "config/dh_search.json",
+                    "size": 0,
+                    "eTag": "",
+                    "versionId": "",
+                    "sequencer": "005A8C5D8E4C7D80AF",
+                    "urlDecodedKey": "config/dh_search.json"
+                },
+                "s3SchemaVersion": "1.0"
+            },
+            "userIdentity": {
+                "principalId": "AWS:AROAICZYLPWFVAU4YIASU:wcma@corp.epnet.com"
+            }
+        }
+    ]
+}
